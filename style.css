@@ -1070,7 +1070,116 @@ body::-webkit-scrollbar-track {
 
 
 
+.assortment-section {
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
 
+.assortment-title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.assortment-description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.service-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-card {
+    position: relative;
+    width: 800px;
+    height: 100px;
+    margin: 10px 0;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-card-1 {
+    background-image: url('../img/products/product-1.jpg');
+}
+
+.service-card-2 {
+    background-image: url('../img/products/product-2.jpg');
+}
+
+.service-card-3 {
+    background-image: url('../img/products/product-3.jpg');
+}
+
+.service-card-4 {
+    background-image: url('../img/products/product-4.jpg');
+}
+
+.service-card-5 {
+    background-image: url('../img/products/product-5.jpg');
+}
+
+.service-card-6 {
+    background-image: url('../img/products/product-6.jpg');
+}
+
+.service-card-7 {
+    background-image: url('../img/products/product-7.jpg');
+}
+
+.service-card-8 {
+    background-image: url('../img/products/product-8.jpg');
+}
+
+.service-card-9 {
+    background-image: url('../img/products/product-9.jpg');
+}
+
+.service-card-10 {
+    background-image: url('../img/products/product-10.jpg');
+}
+
+.service-card-11 {
+    background-image: url('../img/products/product-11.jpg');
+}
+
+.service-card-12 {
+    background-image: url('../img/products/product-12.jpg');
+}
+
+.service-card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+}
+
+.service-card h3 {
+    position: absolute;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+    .service-card {
+        width: 100%;
+        height: 90px;
+    }
+}
 
 
 
@@ -1121,5 +1230,8 @@ body::-webkit-scrollbar-track {
     }
     .order-btn:hover {
         background-color: #000000;
+    }
+    .service-card:hover .service-card-overlay {
+        background-color: rgba(0, 0, 0, 0.164);
     }
 }
