@@ -1335,6 +1335,102 @@ body::-webkit-scrollbar-track {
     }
     
   }
+
+  
+/* Секция приложения */
+.app-section {
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.app-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.app-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    animation: slideIn 1s ease-in-out;
+}
+
+.app-bonuses {
+    margin: 40px 0;
+    text-align: left;
+}
+
+.app-bonuses h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.bonus-list {
+    list-style: none;
+    padding: 0;
+}
+
+.bonus-item {
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    position: relative;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.bonus-item i {
+    color: #1abc9c;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+/* Кнопки загрузки */
+.app-download-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.download-btn {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: bounce 2s infinite;
+}
+
+.download-btn:hover {
+    background-color: #16a085;
+    transform: scale(1.05);
+}
+
+.download-btn i {
+    font-size: 24px;
+}
+
+/* Описание приложения */
+.app-description {
+    font-size: 18px;
+    color: #555;
+    margin-top: 30px;
+    animation: fadeIn 2.5s ease-in-out;
+}
   
 
 
