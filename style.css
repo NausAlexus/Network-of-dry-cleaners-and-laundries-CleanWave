@@ -1151,6 +1151,11 @@ body::-webkit-scrollbar-track {
     border: 1px solid #ddd;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
   }
   .thank-you-container h1 {
     font-size: 2rem;
