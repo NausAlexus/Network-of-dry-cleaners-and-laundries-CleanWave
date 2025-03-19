@@ -16,6 +16,7 @@
 
     <script src="/burgerMenu.js" defer></script>
     <script src="/header.js" defer></script>
+    <script src="/pop-up.js" defer></script>
 
 </head>
 
@@ -58,28 +59,196 @@
                 All categories of services of the network of dry cleaners and laundries CleanWave are presented here
             </p>
             <div class="service-card-container">
-                <a href="semi-finished.html" class="service-card service-card-1">
+                <a href="#" class="service-card service-card-1" id="open-popup-1">
                     <div class="service-card-overlay"></div>
-                    <h3>Semi-finished products</h3>
+                    <h3>Dry cleaning of outerwear</h3>
                 </a>
-                <a href="beef.html" class="service-card service-card-2">
+                <a href="#" class="service-card service-card-2" id="open-popup-2">
                     <div class="service-card-overlay"></div>
-                    <h3>Beef</h3>
+                    <h3>Dry cleaning of formal wear</h3>
                 </a>
-                <a href="pork.html" class="service-card service-card-3">
+                <a href="pork.html" class="service-card service-card-3" id="open-popup-3">
                     <div class="service-card-overlay"></div>
-                    <h3>Pork</h3>
+                    <h3>Dry cleaning of casual clothes</h3>
                 </a>
-                <a href="lamb.html" class="service-card service-card-4">
+                <a href="lamb.html" class="service-card service-card-4" id="open-popup-4">
                     <div class="service-card-overlay"></div>
-                    <h3>Lamb</h3>
+                    <h3>Dry cleaning of home textiles</h3>
                 </a>
-                <a href="turkey.html" class="service-card service-card-5">
+                <a href="turkey.html" class="service-card service-card-5" id="open-popup-5">
                     <div class="service-card-overlay"></div>
-                    <h3>Turkey</h3>
+                    <h3>Laundry service</h3>
                 </a>
             </div>
         </section>
+    
+        <!-- Popup for Dry cleaning of outerwear -->
+        <div id="popup-1" class="popup">
+            <div class="popup-content">
+                <span class="close" id="close-popup-1">&times;</span>
+                <h3 class="popup-title">Dry cleaning of outerwear</h3>
+                <p class="popup-description">Cleaning type: aqua cleaning and dry cleaning (dry cleaning), duration - 72 hours. The service includes manual stain removal, cleaning, and steaming.</p>
+                <div class="popup-price-list">
+                    <p>Winter coat with down insulation (over 91 cm) - $0.88</p>
+                    <p>Winter coat with synthetic insulation, fur coat, sheepskin coat made of artificial fur (over 91 cm) - $0.85</p>
+                    <p>Mid-length winter coat with down insulation (71-90 cm) - $0.84</p>
+                    <p>Mid-length winter coat with synthetic insulation, long ski jacket (membrane), fur coat, sheepskin coat made of artificial fur (71-90 cm) - $0.83</p>
+                    <p>Demiseason coat with insulation, insulated raincoat (with lining) (over 91 cm) - $0.79</p>
+                    <p>Mid-length demiseason coat with insulation, insulated raincoat (with lining) (71-90 cm) - $0.74</p>
+                    <p>Demiseason coat, raincoat without insulation (over 91 cm) - $0.72</p>
+                    <p>Mid-length demiseason coat, raincoat without insulation (71-90 cm) - $0.67</p>
+                    <p>Trench coat, raincoat made of artificial leather (71-90 cm) - $0.74</p>
+                    <p>Jacket with down insulation (up to 70 cm) - $0.83</p>
+                    <p>Jacket with synthetic insulation, ski jacket (up to 70 cm) - $0.79</p>
+                    <p>Raincoat, coat, overalls made of lightweight fabrics (without lining) - $0.64</p>
+                    <p>Waist-length jacket without insulation, fake fur jacket (up to 50 cm) - $0.56</p>
+                    <p>Uninsulated jacket, windbreaker, denim jacket, wool jacket without insulation (up to 70 cm) - $0.54</p>
+                    <p>Jacket made of artificial leather (71-90 cm) - $0.74</p>
+                    <p>Vest with down insulation - $0.62</p>
+                    <p>Vest with synthetic insulation, ski pants - $0.58</p>
+                    <p>Headgear (without restoring shape), hood, scarf, shawl, knitted gloves (pair) - $0.22</p>
+                    <p>Clip made of natural fur - $0.37</p>
+                </div>
+                <div class="popup-links">
+                    <a href="/app/" class="download-link btn-service-link">Download APK</a>
+                    <a href="/contacts/" class="contact-link btn-service-link">Find out details</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Popup for Dry cleaning of formal wear -->
+        <div id="popup-2" class="popup">
+            <div class="popup-content">
+                <span class="close" id="close-popup-2">&times;</span>
+                <h3 class="popup-title">Dry cleaning of formal wear</h3>
+                <p class="popup-description">Cleaning type: aqua cleaning and dry cleaning (dry cleaning), duration - 72 hours. The service includes manual stain removal, cleaning, and steaming.</p>
+                <div class="popup-price-list">
+                    <p>Smoking jacket, tailcoat - $0.64</p>
+                    <p>Evening or light dress with straps (silk, satin, etc.) - $0.64</p>
+                    <p>Evening or concert dress without removing fittings - $0.86</p>
+                    <p>Simple wedding dress (no more than 2 layers), long evening dress with complex decorations - $1.53</p>
+                    <p>Complex, multi-layered wedding dress (individual manual cleaning) - $2.07</p>
+                    <p>Bridal veil - $0.22</p>
+                </div>
+                <div class="popup-links">
+                    <a href="/app/" class="download-link btn-service-link">Download APK</a>
+                    <a href="/contacts/" class="contact-link btn-service-link">Find out details</a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="popup-3" class="popup">
+            <div class="popup-content">
+                <span class="close" id="close-popup-3">&times;</span>
+                <h3 class="popup-title">Dry cleaning of casual clothes</h3>
+                <p class="popup-description">Cleaning type: aqua cleaning and dry cleaning (dry cleaning), duration - 72 hours. The service includes manual stain removal, cleaning, and steaming.</p>
+                <div class="popup-price-list">
+                    <p>Blazer, jacket, uniform, tunic - $0.54</p>
+                    <p>Long women's blazer/jacket, poncho, long cardigan, extended vest - $0.56</p>
+                    <p>Sweater, pullover, cardigan, shawl, Olympic sweatshirt, skirt to the knee (knitted), mini dress - $0.39</p>
+                    <p>Golf, T-shirt, tank top, polo, long-sleeve T-shirt, fufayka - $0.34</p>
+                    <p>Shirt, blouse, dress shirt - $0.36</p>
+                    <p>Pants, jeans, sweatpants - $0.42</p>
+                    <p>Leggings - $0.18</p>
+                    <p>Hoodie, sweatshirt, zip-up hoodie (with hood) - $0.49</p>
+                    <p>Regular sweatshirt (without hood) - $0.39</p>
+                    <p>Simple short skirt, shorts, short vest - $0.30</p>
+                    <p>Simple dress, sundress, robe - $0.54</p>
+                    <p>Long dress, light fabric jumpsuit, complex skirt (more than two layers) or with pleats, extended robe, extended sundress - $0.56</p>
+                    <p>Corset - $0.47</p>
+                    <p>Church vestments - $0.61</p>
+                </div>
+                <div class="popup-links">
+                    <a href="/app/" class="download-link btn-service-link">Download APK</a>
+                    <a href="/contacts/" class="contact-link btn-service-link">Find out details</a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="popup-4" class="popup">
+            <div class="popup-content">
+                <span class="close" id="close-popup-4">&times;</span>
+                <h3 class="popup-title">Dry cleaning of home textiles</h3>
+                <p class="popup-description">Bedding, curtains, tulle, pillows, etc.</p>
+                <div class="popup-price-list">
+                    <p>Double mattress cover with zipper (over 200*220) - $0.95</p>
+                    <p>Double mattress cover with zipper (double from 150*200 to 200*220) - $0.86</p>
+                    <p>Double mattress cover with zipper (single/double bed up to 150*220) - $0.83</p>
+                    <p>Double mattress cover with zipper (single up to 90*220) - $0.79</p>
+                    <p>Mattress cover with elastic (double up to 200*220) - $0.83</p>
+                    <p>Mattress cover with elastic (Euro standard over 200*220) - $0.83</p>
+                    <p>Mattress cover with elastic (single/double bed up to 150*220) - $0.79</p>
+                    <p>Mattress cover with elastic (single up to 90*220) - $0.73</p>
+                    <p>Sofa cover (over 200*220) - $1.00</p>
+                    <p>Sofa cover (up to 200*220) - $0.91</p>
+                    <p>Down comforter (over 200*220) - $0.91</p>
+                    <p>Down comforter (up to 200*220) - $0.86</p>
+                    <p>Down comforter (up to 150*220) - $0.83</p>
+                    <p>Wadding blanket, quilted, made of artificial fur, synthetic filler (double over 200*220) - $0.83</p>
+                    <p>Wadding blanket, quilted, made of artificial fur, synthetic filler (double up to 200*220) - $0.77</p>
+                    <p>Wadding blanket, quilted, made of artificial fur, synthetic filler (single/double up to 150*220 cm) - $0.70</p>
+                    <p>Wadding blanket, quilted, made of artificial fur, synthetic filler (children's, single up to 90*220 cm) - $0.63</p>
+                    <p>Double blanket, cover (double/Euro over 200*220) - $0.83</p>
+                    <p>Double blanket, cover (double/Euro from 150*200) - $0.74</p>
+                    <p>Double blanket, cover (single/double up to 150*220) - $0.70</p>
+                    <p>Children's double blanket, cover (up to 90*180) - $0.63</p>
+                    <p>Thin children's blanket, cover (single/double up to 150*210 cm) - $0.55</p>
+                    <p>Soft toy (up to 0.5 kg), synthetic pillow (40*40 cm) - $0.29</p>
+                    <p>Soft toy (0.5 to 2 kg), synthetic pillow (50*70 cm) - $0.31</p>
+                    <p>Soft toy (2 to 4 kg), synthetic pillow (70*70 cm) - $0.35</p>
+                    <p>Soft toy (over 4 kg), sofa pillow (from 0.6 m to 1 m) - $0.58</p>
+                    <p>Down feather pillow (with marking ribbon) - $0.55</p>
+                    <p>Pillow for pregnant women - $0.82</p>
+                    <p>Curtains and tulle items (per m²) - $0.08</p>
+                    <p>Thick curtains/curtains (per m²) - $0.08</p>
+                    <p>Double curtains/curtains (with lining on the curtain) per m² - $0.10</p>
+                    <p>Lambrequin (up to 3 meters) - $0.47</p>
+                    <p>Cleaning down feather pillows (per 1 kg) - $0.08</p>
+                    <p>38*38 cm (pillowcase 40X40) - $0.11</p>
+                    <p>38*58 cm (pillowcase 40X60) Euro - $0.13</p>
+                    <p>48*68 cm (pillowcase 50X70) Euro - $0.15</p>
+                    <p>58*58 cm (pillowcase 60X60) - $0.18</p>
+                    <p>68*68 cm (pillowcase 70X70) - $0.19</p>
+                    <p>78*78 cm (pillowcase 80X80) - $0.24</p>
+                    <p>Life-size puppet, Santa Claus costume - $1.43</p>
+                    <p>Tent, awning, cover for car/motorcycle/unmanned aircraft (up to 2.5*2.5 m) - $0.82</p>
+                    <p>Bag/backpack made of non-frame material, depending on size (small) - $0.64</p>
+                    <p>Bag/backpack made of non-frame material, depending on size (large) - $0.95</p>
+                    <p>Dog bed (not very dirty) (up to 50*50 cm) - $0.64</p>
+                    <p>Dog bed (not very dirty) (from 50*50 cm to 1*1 m) - $1.11</p>
+                    <p>Sleeping bag - $0.73</p>
+                </div>
+                <div class="popup-links">
+                    <a href="/app/" class="download-link btn-service-link">Download APK</a>
+                    <a href="/contacts/" class="contact-link btn-service-link">Find out details</a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="popup-5" class="popup">
+            <div class="popup-content">
+                <span class="close" id="close-popup-5">&times;</span>
+                <h3 class="popup-title">Laundry service</h3>
+                <p class="popup-description">Bedding, work clothes, special clothing, ironing.</p>
+                <div class="popup-price-list">
+                    <p>Individual laundry with ironing (up to 8 kg) - $0.48</p>
+                    <p>Individual laundry with ironing (up to 12.5 kg) - $0.73</p>
+                    <p>Washing of fashion and night linen, without ironing (up to 5 kg) - $0.30</p>
+                    <p>Washing of fashion and night linen, without ironing (up to 8.5 kg) - $0.52</p>
+                    <p>Washing of fashion and night linen, without ironing (up to 12.5 kg) - Price to be confirmed</p>
+                    <p>Jacket, pants, overalls without insulating lining, bathrobe - $0.25</p>
+                    <p>Jacket, pants, overalls with insulating lining, raincoat - Price to be confirmed</p>
+                    <p>Tank top, nightgown, pajamas, T-shirt, etc. - $0.12</p>
+                    <p>Bathrobe, shirt, sweater, sweatpants, T-shirt, etc. - $0.18</p>
+                    <p>Curtains (thin, thick) per m² - $0.12</p>
+                    <p>Tablecloth per m² - $0.12</p>
+                </div>
+                <div class="popup-links">
+                    <a href="/app/" class="download-link btn-service-link">Download APK</a>
+                    <a href="/contacts/" class="contact-link btn-service-link">Find out details</a>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer class="footer">
