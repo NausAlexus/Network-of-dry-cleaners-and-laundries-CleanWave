@@ -353,11 +353,143 @@ body::-webkit-scrollbar-track {
     }
 }
 
+.privacy-policy-header {
+    font-size: 32px; /* Size for the main header */
+    color: #34495e; /* Dark color for better readability */
+    margin-bottom: 20px; /* Space below the header */
+    text-align: center; /* Center align the header */
+}
 
+.compliance-section {
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 100px;
+}
 
+.commitment-header {
+    font-size: 28px; /* Larger font for headings */
+    color: #2c3e50; /* Darker color for headers */
+    margin-bottom: 10px; /* Space below header */
+}
 
+.data-collection-header {
+    font-size: 28px; /* Larger font for headings */
+    color: #2980b9; /* Blue color for this header */
+    margin-bottom: 10px; /* Space below header */
+}
 
+.transparency-header {
+    font-size: 28px; /* Larger font for headings */
+    color: #27ae60; /* Green color for this header */
+    margin-bottom: 10px; /* Space below header */
+}
 
+.user-rights-header {
+    font-size: 28px; /* Larger font for headings */
+    color: #c0392b; /* Red color for this header */
+    margin-bottom: 10px; /* Space below header */
+}
+
+.text-content {
+    font-size: 16px; /* Standard size for body text */
+    color: #34495e; /* Dark color for better readability */
+    line-height: 1.6; /* Increase line height for readability */
+}
+
+.contact-info {
+    font-weight: bold; /* Emphasizes contact information */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .compliance-section {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .privacy-policy-header {
+        font-size: 28px; /* Smaller font size for mobile */
+    }
+
+    .commitment-header,
+    .data-collection-header,
+    .transparency-header,
+    .user-rights-header {
+        font-size: 24px; /* Reduce font size for smaller screens */
+    }
+
+    .text-content {
+        font-size: 14px; /* Smaller font size for mobile readability */
+    }
+}
+
+.terms-and-conditions-section {
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 100px;
+}
+
+.terms-header {
+    font-size: 32px; /* Size for the main header */
+    color: #34495e; /* Dark color for better readability */
+    margin-bottom: 20px; /* Space below the header */
+    text-align: center; /* Center align the header */
+}
+
+.legal-compliance-header {
+    font-size: 28px; /* Larger font for subsections */
+    color: #2c3e50; /* Darker color for headers */
+    margin-bottom: 10px; /* Space below header */
+}
+
+.user-responsibility-header {
+    font-size: 28px; /* Larger font for subsections */
+    color: #2980b9; /* Blue color for this header */
+    margin-bottom: 10px; /* Space below header */
+}
+
+.dispute-resolution-header {
+    font-size: 28px; /* Larger font for subsections */
+    color: #27ae60; /* Green color for this header */
+    margin-bottom: 10px; /* Space below header */
+}
+
+.contact-information-header {
+    font-size: 28px; /* Larger font for subsections */
+    color: #c0392b; /* Red color for this header */
+    margin-bottom: 10px; /* Space below header */
+}
+
+.text-content {
+    font-size: 16px; /* Standard size for body text */
+    color: #34495e; /* Dark color for better readability */
+    line-height: 1.6; /* Increase line height for readability */
+}
+
+.contact-info {
+    font-weight: bold; /* Emphasizes contact information */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .terms-and-conditions-section {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .terms-header {
+        font-size: 28px; /* Smaller font size for mobile */
+    }
+
+    .legal-compliance-header,
+    .user-responsibility-header,
+    .dispute-resolution-header,
+    .contact-information-header {
+        font-size: 24px; /* Reduce font size for smaller screens */
+    }
+
+    .text-content {
+        font-size: 14px; /* Smaller font size for mobile readability */
+    }
+}
 
 
 
@@ -393,5 +525,8 @@ body::-webkit-scrollbar-track {
     .footer-phone:hover,
     .footer-email:hover {
         color: #2b8eff; 
+    }
+    .privacy-terms-mail:hover {
+        text-decoration: underline;
     }
 }
