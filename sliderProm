@@ -1,0 +1,24 @@
+document.addEventListener("DOMContentLoaded", () => {
+    let currentIndex = 0;
+    const sliderContainer = document.querySelector(".new-arrivals-slider-container");
+    const slides = document.querySelectorAll(".new-arrivals-card");
+    const totalSlides = slides.length;
+    const slideWidth = slides[0].offsetWidth;
+
+    function updateSlider() {
+        sliderContainer.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+    }
+
+    document.querySelector(".new-arrivals-prev").addEventListener("click", () => moveSlide(-1));
+    document.querySelector(".new-arrivals-next").addEventListener("click", () => moveSlide(1));
+
+    function moveSlide(direction) {
+        currentIndex += direction;
+        if (currentIndex < 0) {
+            currentIndex = totalSlides - 1;
+        } else if (currentIndex >= totalSlides) {
+            currentIndex = 0;
+        }
+        updateSlider();
+    }
+});
